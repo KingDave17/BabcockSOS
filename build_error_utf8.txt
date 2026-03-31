@@ -1,0 +1,44 @@
+﻿React Compiler enabled
+Starting Metro Bundler
+Static rendering is enabled. Learn more: https://docs.expo.dev/router/reference/static-rendering/
+Web node_modules\expo-router\entry.js ΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ  0.0% (0/1)
+╬╗ node_modules\expo-router\node\render.js ΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ  0.0% (0/1)
+Web node_modules\expo-router\entry.js ΓûôΓûôΓûôΓûôΓûôΓûôΓûôΓûôΓûôΓûôΓûôΓûôΓûôΓûôΓûôΓûæ 96.3% (1062/1082)
+╬╗ node_modules\expo-router\node\render.js ΓûôΓûôΓûôΓûôΓûôΓûôΓûôΓûôΓûôΓûôΓûôΓûôΓûôΓûôΓûôΓûæ 95.2% (1243/1274)
+╬╗ Bundled 3638ms node_modules\expo-router\node\render.js (1287 modules)
+
+Metro error: b is not a function
+
+Call Stack
+  factory (firebaseConfig.ts)
+  factory (hooks\AuthContext.tsx)
+  factory (app\(tabs)\_layout.tsx)
+node.exe : TypeError: b is not a function
+At C:\Program Files\nodejs\npx.ps1:29 char:3
++   & $NODE_EXE $NPX_CLI_JS $args
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (TypeError: b is not a function:Strin 
+   g) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+TypeError: b is not a function
+    at factory 
+(C:\Users\pc\dev\emergencyAlertSystem\BabcockSOS\firebaseConfig.ts:25:16)
+    at loadModuleImplementation (C:\Users\pc\dev\emergencyAlertSystem\BabcockSOS\n
+ode_modules\expo\node_modules\@expo\cli\build\metro-require\require.js:248:36)
+    at guardedLoadModule (C:\Users\pc\dev\emergencyAlertSystem\BabcockSOS\node_mod
+ules\expo\node_modules\@expo\cli\build\metro-require\require.js:163:16)
+    at r (C:\Users\pc\dev\emergencyAlertSystem\BabcockSOS\node_modules\expo\node_m
+odules\@expo\cli\build\metro-require\require.js:74:75)
+    at factory 
+(C:\Users\pc\dev\emergencyAlertSystem\BabcockSOS\hooks\AuthContext.tsx:4:1)
+    at loadModuleImplementation (C:\Users\pc\dev\emergencyAlertSystem\BabcockSOS\n
+ode_modules\expo\node_modules\@expo\cli\build\metro-require\require.js:248:36)
+    at guardedLoadModule (C:\Users\pc\dev\emergencyAlertSystem\BabcockSOS\node_mod
+ules\expo\node_modules\@expo\cli\build\metro-require\require.js:163:16)
+    at r (C:\Users\pc\dev\emergencyAlertSystem\BabcockSOS\node_modules\expo\node_m
+odules\@expo\cli\build\metro-require\require.js:74:75)
+    at factory 
+(C:\Users\pc\dev\emergencyAlertSystem\BabcockSOS\app\(tabs)\_layout.tsx:9:1)
+    at f (C:\Users\pc\dev\emergencyAlertSystem\BabcockSOS\node_modules\expo\node_m
+odules\@expo\cli\build\metro-require\require.js:248:36)
